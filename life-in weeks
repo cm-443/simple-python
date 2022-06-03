@@ -1,0 +1,10 @@
+//A simple program that calculates your life in weeks with the assumption you will live until 90
+
+age = input("What is your current age?")
+
+newage = int(age)
+daysleft = (90 - newage) * 365
+weeksleft = (90 - newage) * 52
+months = (90 - newage) * 12
+ 
+print (f"you have {daysleft} days {weeksleft} weeks and {months} months left.")
