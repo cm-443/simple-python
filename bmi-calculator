@@ -1,0 +1,9 @@
+Simple program that calculates BMI
+height = input("enter your height in meters: ")
+weight = input("enter your weight in kilograms: ")
+h = float(height)
+w = float(weight)
+///bmi = int(weight) / float(height) ** 2
+bmi = w / h ** 2
+newbmi = int(bmi)
+print(newbmi)
